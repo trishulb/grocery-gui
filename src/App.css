@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin-left:20%;
+  margin-right:10% ;
+  margin-top:2%
 }
 
 .App-logo {
@@ -30,4 +33,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  maxWidth: 345,
+}
+.media{
+  height: 0;
+  paddingTop: '56.25%'
+}
+
+.expandOpen {
+  transform: rotate(180deg)
+}
+.avatar {
+  backgroundColor: red
+}
+.selectSpacing{
+  width: 25%;
+  margin: 2%;
+}
+.fab-grocery{
+  margin: 1%
 }
